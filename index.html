@@ -1,85 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/dist/main.css"/>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/main.css">
     <title>Resume</title>
-  </head>
+</head>
 
-  <body class="bg-gray-100 py-10 font-sans text-gray-700">
-    <div class="mx-auto max-w-2xl rounded-lg bg-white p-6 shadow-lg">
-      <!-- Name -->
-      <h2 class="mb-5 border-b-2 border-blue-900 pb-3 text-3xl text-blue-900">Prathmesh Patil</h2>
+<body class="bg-gray-100 font-sans text-gray-700">
 
-      <!-- Contact -->
-      <section class="mb-6">
-        <h3 class="mb-2 text-2xl text-blue-900">Contact:</h3>
-        <p class="mb-2">Name: Prathmesh Patil</p>
-        <p class="mb-2">E-mail: prprock123@gmail.com</p>
-        <p>Phone: 9767884299</p>
-      </section>
+<div class="container mx-auto p-4">
 
-      <section class="mb-6">
-        <h3 class="mb-4 text-2xl text-blue-900">Skills</h3>
+    <!-- Name -->
+    <h2 class="text-2xl md:text-3xl border-b-2 border-blue-900 pb-2 mb-4 text-blue-900">Prathmesh Patil</h2>
+
+    <!-- Contact -->
+    <section class="mb-6">
+        <h3 class="text-xl mb-2 text-blue-900">Contact:</h3>
+        <li class="mb-2">Name: Prathmesh Patil</li>
+        <li class="mb-2">E-mail: prprock123@gmail.com</li>
+        <li>Phone: 9767884299</li>
+    </section>
+
+    <!-- Skills -->
+    <section class="mb-6">
+        <h3 class="text-xl mb-2 text-blue-900">Skills:</h3>
         <ul class="list-disc pl-6">
-          <li class="mb-2">HTML, CSS, Javascript</li>
-          <li class="mb-2">Flutter, Dart</li>
-          <li>IoT</li>
+            <li>HTML, CSS, Javascript</li>
+            <li>Flutter, Dart</li>
+            <li>IoT</li>
         </ul>
-      </section>
+    </section>
 
-      <section class="mb-8">
-        <h2 class="mb-3 text-2xl text-blue-900">Experience</h2>
-
-        <div class="mb-4">
-          <h4 class="mb-2 text-lg font-semibold text-blue-900">* Freelancer</h4>
-          <p class="mb-1 ml-2 text-sm">Self-employed</p>
-          <p class="mb-2 ml-2 text-xs">Jan 2021 - Jan 2022</p>
-          <ul class="list-disc pl-6">
-            <li class="mb-1">IoT solutions</li>
-            <li class="mb-1">3D printing</li>
-            <li class="mb-1">PCB design</li>
-            <li>Hardware design</li>
-          </ul>
-        </div>
+    <!-- Experience -->
+    <section class="mb-6">
+        <h2 class="text-xl md:text-2xl  mb-2 text-blue-900">Experience:</h2>
 
         <div class="mb-4">
-          <h4 class="mb-2 text-lg font-semibold text-blue-900">* CureAmbit pvt.Ltd</h4>
-          <p class="mb-2">Contract</p>
-          <p class="mb-2 text-xs">Jan 2021 - Sep 2021</p>
-          <p class="mb-2">
-            - Developed and tested Hardware and software solutions <br />
-            for Prototype in healthcare sector.
-          </p>
-          <p class="mb-2">- Integrated with an app via Esp32 microcontrollers.</p>
+            <h4 class="text-lg font-semibold mb-1 text-blue-900">Freelancer</h4>
+            <p class="text-sm mb-1">Self-employed</p>
+            <p class="text-xs mb-1">Jan 2021 - Jan 2022</p>
+            <ul class="list-disc pl-6">
+                <li>IoT solutions</li>
+                <li>3D printing</li>
+                <li>PCB design</li>
+                <li>Hardware design</li>
+            </ul>
         </div>
 
         <div class="mb-4">
-          <h4 class="mb-2 text-lg font-semibold text-blue-900">* Content creator</h4>
-          <p class="mb-2">Youtube</p>
-          <p class="mb-2 text-xs">Oct 2019 - Dec 2020</p>
-          <p class="mb-1">- Published 35+ tutorials based on IoT projects.</p>
-          <p class="mb-1">- Managed to Get 1.5M+ views and 10K+ subs.</p>
-          <p class="mb-1">- Did work for 5 brands in electronics niche.</p>
+            <h4 class="text-lg font-semibold mb-1 text-blue-900">CureAmbit pvt.Ltd</h4>
+            <p class="text-xs mb-1">Jan 2021 - Sep 2021</p>
+            <li class="list-disc mb-1">
+                 Developed and tested Hardware and software solutions
+                for Prototype in healthcare sector.
+            </li>
+            <li class="mb-1 list-disc">Integrated with an app via Esp32 microcontrollers.</li>
         </div>
-      </section>
 
-      <section class="mb-6">
-        <h2 class="mb-2 text-2xl text-blue-900">Education</h2>
-        <p class="mb-2">Degree: Bachelor of Engineering</p>
-        <p class="mb-2">University: Pune University</p>
-        <p>Year: 2022 - 2026</p>
-      </section>
-
-      <section class="mb-8">
-        <h2 class="mb-2 text-2xl text-blue-900">Socials</h2>
-        <div class="flex flex-row gap-2">
-          <p class="mb-1"><a href="www.linkedin.com/in/prathmesh-patil-1b1b311aa" class="text-blue-500 hover:underline">LinkedIn</a></p>
-          <p><a href="https://twitter.com/Pratham_015" class="text-blue-500 hover:underline">Twitter</a></p>
+        <div class="mb-4">
+            <h4 class="text-lg font-semibold mb-1 text-blue-900">Content creator</h4>
+            <p class="text-xs mb-1">Oct 2019 - Dec 2020</p>
+            <ul class="list-disc pl-6">
+                <li>Published 35+ tutorials based on IoT projects.</li>
+                <li>Managed to Get 1.5M+ views and 10K+ subs.</li>
+                <li>Did work for 5 brands in electronics niche.</li>
+            </ul>
         </div>
-      </section>
-    </div>
-  </body>
+    </section>
+
+    <!-- Education -->
+    <section class="mb-6">
+        <h2 class="text-xl mb-2 text-blue-900">Education:</h2>
+        <li class=" mb-1 list-disc">Degree: Bachelor of Engineering</li>
+        <li class=" mb-1 list-disc">University: Pune University</li>
+        <li class=" list-disc">Year: 2022 - 2026</li>
+    </section>
+
+    <!-- Socials -->
+    <section>
+        <h2 class="text-xl mb-2 text-blue-900">Socials:</h2>
+        <div class="flex flex-col md:flex-row gap-2">
+            <a href="https://www.linkedin.com/in/prathmesh-patil-1b1b311aa" class="text-blue-500 hover:underline" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com/Pratham_015" class="text-blue-500 hover:underline" target="_blank">Twitter</a>
+        </div>
+    </section>
+
+</div>
+
+</body>
+
 </html>
