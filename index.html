@@ -1,81 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/main.css"/>
     <title>Resume</title>
-</head>
-<body class="">
-    <h2 class=" text-2xl text-center font-sans p-2 bg-slate-100 font-medium ">Prathmesh Patil</h2>
-     <hr>
-     <section class=" text-center bg-slate-100 p-2 ">
-        <h3 class=" text-xl font-sans">Contact:</h3>
-        <P class="">Name : Prathmesh Patil</P>
-        <P>E-mail : prprock123@gmail.com</P>
-        <P>Phone : 9767884299</P>
-     </section>
-    <hr>
-    <section class=" p-2 bg-slate-100">
-        <h3 class="font-medium text-xl font-sans">Skills:</h3>
-        <ul>
-            <li> -> HTML, CSS, Javascript</li>
-            <li> -> Flutter, Dart</li>
-            <li> -> IoT</li>
+  </head>
+
+  <body class="bg-gray-100 py-10 font-sans text-gray-700">
+    <div class="mx-auto max-w-2xl rounded-lg bg-white p-6 shadow-lg">
+      <!-- Name -->
+      <h2 class="mb-5 border-b-2 border-blue-900 pb-3 text-3xl text-blue-900">Prathmesh Patil</h2>
+
+      <!-- Contact -->
+      <section class="mb-6">
+        <h3 class="mb-2 text-2xl text-blue-900">Contact:</h3>
+        <p class="mb-2">Name: Prathmesh Patil</p>
+        <p class="mb-2">E-mail: prprock123@gmail.com</p>
+        <p>Phone: 9767884299</p>
+      </section>
+
+      <section class="mb-6">
+        <h3 class="mb-4 text-2xl text-blue-900">Skills</h3>
+        <ul class="list-disc pl-6">
+          <li class="mb-2">HTML, CSS, Javascript</li>
+          <li class="mb-2">Flutter, Dart</li>
+          <li>IoT</li>
         </ul>
-    </section>
-    <hr>
+      </section>
 
-    <h2 class=" text-xl font-sans p-2 font-medium bg-slate-100 ">Experience:</h2>
-        <div class=" bg-slate-100 ">
-            <h4 class="p-1 font-sans font-medium p-2">Freelancer:</h4>
-            <p class=" ml-2 text-1xl "> ‣ Self-employed</p>
-            <p class=" text-xs ml-5 p-1">Jan 2021 - Jan 2022</p>
-            <ul class="skills">
-                <li class=" ml-2 "> -> IoT solutions</li>
-                <li class="ml-2 "> -> 3D printing</li>
-                <li class=" ml-2"> -> PCB desigen</li>
-                <li class="ml-2"> -> Python</li>
-            </ul>
+      <section class="mb-8">
+        <h2 class="mb-3 text-2xl text-blue-900">Experience</h2>
+
+        <div class="mb-4">
+          <h4 class="mb-2 text-lg font-semibold text-blue-900">* Freelancer</h4>
+          <p class="mb-1 ml-2 text-sm">Self-employed</p>
+          <p class="mb-2 ml-2 text-xs">Jan 2021 - Jan 2022</p>
+          <ul class="list-disc pl-6">
+            <li class="mb-1">IoT solutions</li>
+            <li class="mb-1">3D printing</li>
+            <li class="mb-1">PCB design</li>
+            <li>Hardware design</li>
+          </ul>
         </div>
-  
-        <div class="Exp2 bg-slate-100 ">
-            <h4 class="p-1 font-sans font-medium ml-1">CureAmbit pvt.Ltd </h4>
-            <p class="ml-2 text-1xl font-medium">‣ Contract</p>
-            <p class="text-xs ml-5">Jan 2021 - sep 2021</p>
-            <p class="ml-2"> -> Developed and tested Hardware    and software solutions 
-                  for Prototype in healthcare sector. <br>
-                -> Integrated with an app via Esp32 microcontrollers.</p>
+
+        <div class="mb-4">
+          <h4 class="mb-2 text-lg font-semibold text-blue-900">* CureAmbit pvt.Ltd</h4>
+          <p class="mb-2">Contract</p>
+          <p class="mb-2 text-xs">Jan 2021 - Sep 2021</p>
+          <p class="mb-2">
+            - Developed and tested Hardware and software solutions <br />
+            for Prototype in healthcare sector.
+          </p>
+          <p class="mb-2">- Integrated with an app via Esp32 microcontrollers.</p>
         </div>
- 
-        <div class=" bg-slate-100">
-            <h4 class="p-1 font-sans font-medium ml-1 "> ‣ Content creator(YouTube)</h4>
-            <p class="text-xs ml-5 font-medium ml-1">Oct 2019 - Dec 2020</p>
-            <p class=" ml-2"> -> Published 35+ tutorials based on IoT projects. <br>
-                -> Managed to Get 1.5M+ views and 10K+ subs. <br>
-                -> Did work for 5 brands in electronics niche.</p>
+
+        <div class="mb-4">
+          <h4 class="mb-2 text-lg font-semibold text-blue-900">* Content creator</h4>
+          <p class="mb-2">Youtube</p>
+          <p class="mb-2 text-xs">Oct 2019 - Dec 2020</p>
+          <p class="mb-1">- Published 35+ tutorials based on IoT projects.</p>
+          <p class="mb-1">- Managed to Get 1.5M+ views and 10K+ subs.</p>
+          <p class="mb-1">- Did work for 5 brands in electronics niche.</p>
         </div>
-    </section>
-    <hr>
-    <section class=" bg-slate-100 p-2">
-        <h2 class=" font-sans font-medium text-xl
-        ">Education: </h2>
-        <p>Degree: Bachelor of Engineering</p>
-        <p>University: Pune University</p>
+      </section>
+
+      <section class="mb-6">
+        <h2 class="mb-2 text-2xl text-blue-900">Education</h2>
+        <p class="mb-2">Degree: Bachelor of Engineering</p>
+        <p class="mb-2">University: Pune University</p>
         <p>Year: 2022 - 2026</p>
+      </section>
 
-    </section>
-    <hr>
-    <section class="bg-slate-100">
-        <h2 class=" text-center font-sans font-medium  text-xl">Socials</h2>
-        <p class=" text-center p-0 flex space-x-1 justify-center to-blue-600"> 
-            <a href="www.linkedin.com/in/prathmesh-patil-1b1b311aa">Linkdlen</a> <span>
-             <a href="https://twitter.com/Pratham_015">Twitter</a>
-            </span>
-           
-        </p>
-    </section>
-    <hr>
-</body>
+      <section class="mb-8">
+        <h2 class="mb-2 text-2xl text-blue-900">Socials</h2>
+        <div class="flex flex-row gap-2">
+          <p class="mb-1"><a href="www.linkedin.com/in/prathmesh-patil-1b1b311aa" class="text-blue-500 hover:underline">LinkedIn</a></p>
+          <p><a href="https://twitter.com/Pratham_015" class="text-blue-500 hover:underline">Twitter</a></p>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
